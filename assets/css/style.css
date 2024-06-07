@@ -1,5 +1,7 @@
-@import "../fonts/fontawesome-free-6.5.2/css/all.min.css";
-
+/* @import "../fonts/fontawesome-free-6.5.2/css/all.min.css"; */
+html, body {
+  scroll-behavior: smooth;
+}
 header .header-cont .social-icons li:not(:last-child) {
     margin-right: 1rem;
 }
