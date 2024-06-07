@@ -7,7 +7,7 @@ var ourWorks1 = new Swiper(".ourWorks1", {
 		delay: 0,
 		// disableOnInteraction: false,
 	},
-	slidesPerView: 4,
+	slidesPerView: 3,
 	spaceBetween: 10,
 	speed: 5000,
 	pauseOnMouseEnter: true,
