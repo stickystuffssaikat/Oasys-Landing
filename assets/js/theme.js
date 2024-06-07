@@ -1,5 +1,5 @@
 
-var ourWorks = new Swiper(".ourWorks", {
+var ourWorks1 = new Swiper(".ourWorks1", {
 	freeMode: true,
 	loop: true,
 	allowTouchMove: true,
@@ -11,6 +11,7 @@ var ourWorks = new Swiper(".ourWorks", {
 	spaceBetween: 10,
 	speed: 5000,
 	pauseOnMouseEnter: true,
+	direction: "vertical",
 	breakpoints: {
 		0: {
 			spaceBetween: 10,

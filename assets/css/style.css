@@ -63,15 +63,15 @@ section:not(.banner){
     background: #132a36;
     color: #fff;
 }
-.works .ourWorks {
+.works .ourWorks1 {
     width: 100%;
 }
-.works .ourWorks .swiper-wrapper {
+.works .ourWorks1 .swiper-wrapper {
     -webkit-transition-timing-function: linear !important;
     -o-transition-timing-function: linear !important;
     transition-timing-function: linear !important;
 }
-.works .ourWorks .mediaContent {
+.works .ourWorks1 .mediaContent {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -81,7 +81,7 @@ section:not(.banner){
     justify-content: space-between;
     align-items: center;
 }
-.works .ourWorks .mediaContent a {
+.works .ourWorks1 .mediaContent a {
     color: #fff;
 }
 
