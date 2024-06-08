@@ -7,12 +7,12 @@ var ourWorks1 = new Swiper(".ourWorks1", {
 	autoplay: {
 		delay: 0,
 		disableOnInteraction: true,
+		pauseOnMouseEnter: true,
+		// pauseOnHover: true,
 	},
 	slidesPerView: 2,
 	spaceBetween: 10,
 	speed: 5000,
-	pauseOnHover: true,
-	pauseOnMouseEnter: true,
 	breakpoints: {
 		0: {
 			spaceBetween: 10,
@@ -37,12 +37,12 @@ var ourWorks2 = new Swiper(".ourWorks2", {
 		delay: 0,
 		disableOnInteraction: true,
 		reverseDirection: true,
+		pauseOnMouseEnter: true,
+		// pauseOnHover: true,
 	},
 	slidesPerView: 2,
 	spaceBetween: 10,
 	speed: 5000,
-	pauseOnHover: true,
-	pauseOnMouseEnter: true,
 	breakpoints: {
 		0: {
 			spaceBetween: 10,
@@ -87,7 +87,7 @@ var ourClients = new Swiper(".ourClients", {
 	},
 });
 
-$(".ourWorks1 .swiper-slide").mouseenter(function() {
+/* $(".ourWorks1 .swiper-slide").mouseenter(function() {
     // ourWorks1.autoplay.stop();
     ourWorks1.stopAutoplay();
     // console.log('slider stopped');
@@ -108,7 +108,7 @@ $(".ourWorks2 .swiper-slide").mouseenter(function() {
     // ourWorks2.autoplay.start();
     ourWorks2.startAutoplay();
     // console.log('slider started again');
-  });
+  }); */
 
 
 

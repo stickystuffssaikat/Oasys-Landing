@@ -74,6 +74,11 @@ section:not(.banner){
     -o-transition-timing-function: linear !important;
     transition-timing-function: linear !important;
 }
+.works .ourWorks1 .swiper-wrapper .swiper-slide,
+.works .ourWorks2 .swiper-wrapper .swiper-slide {
+  overflow: hidden;
+}
+
 .works .ourWorks1 .mediaContent,
 .works .ourWorks2 .mediaContent {
     position: absolute;
@@ -207,6 +212,25 @@ footer.footer .linkList .linkList-item:not(:last-child) {
 footer.footer .linkList .linkList-item a:hover {
     color: #e65100;
 }
+.input-subscription input.form-control {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+}
+.input-subscription input.form-control:focus {
+  box-shadow: none;
+}
+.input-subscription input.form-control:focus ~ label {
+  top: -.5em;
+}
+.input-subscription button.btn,
+.input-subscription button.btn:active {
+  border: none;
+  background: none;
+}
+.input-subscription {
+  border-bottom: 1px solid #ffffff59;
+}
 
 
 
@@ -256,12 +280,18 @@ footer.footer .linkList .linkList-item a:hover {
 
 
 .desktopPhotos {
-	width:40vw;
-	height:40vw;
-	/* border-radius:20px; */
+  width:40vw;
+	height:90%;
+	/* height:40vw;
+	border-radius:20px; */
 	position:relative;
 	overflow:hidden;
 	/* box-shadow:4px 4px 4px rgba(0, 0, 0, 0.4); */
+}
+.desktopPhotos img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .desktopPhoto {
