@@ -88,21 +88,25 @@ var ourClients = new Swiper(".ourClients", {
 });
 
 $(".ourWorks1 .swiper-slide").mouseenter(function() {
-    ourWorks1.autoplay.stop();
+    // ourWorks1.autoplay.stop();
+    ourWorks1.stopAutoplay();
     // console.log('slider stopped');
   });
 
   $(".ourWorks1 .swiper-slide").mouseleave(function() {
-    ourWorks1.autoplay.start();
+    // ourWorks1.autoplay.start();
+    ourWorks1.startAutoplay();
     // console.log('slider started again');
   });
 $(".ourWorks2 .swiper-slide").mouseenter(function() {
-    ourWorks2.autoplay.stop();
+    // ourWorks2.autoplay.stop();
+    ourWorks2.stopAutoplay();
     // console.log('slider stopped');
   });
 
   $(".ourWorks2 .swiper-slide").mouseleave(function() {
-    ourWorks2.autoplay.start();
+    // ourWorks2.autoplay.start();
+    ourWorks2.startAutoplay();
     // console.log('slider started again');
   });
 
