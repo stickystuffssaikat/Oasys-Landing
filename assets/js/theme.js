@@ -30,7 +30,7 @@ var ourWorks1 = new Swiper(".ourWorks1", {
 });
 var ourWorks2 = new Swiper(".ourWorks2", {
 	freeMode: true,
-	direction: 'vertical',
+	direction: 'inverse',
 	loop: true,
 	allowTouchMove: true,
 	autoplay: {
