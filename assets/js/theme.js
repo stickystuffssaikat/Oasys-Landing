@@ -27,6 +27,34 @@ var ourWorks1 = new Swiper(".ourWorks1", {
 		}
 	},
 });
+var ourWorks2 = new Swiper(".ourWorks2", {
+	freeMode: true,
+	loop: true,
+	allowTouchMove: true,
+	autoplay: {
+		delay: 0,
+		disableOnInteraction: true,
+	},
+	slidesPerView: 2,
+	spaceBetween: 10,
+	speed: 5000,
+	pauseOnMouseEnter: true,
+	direction: "vertical",
+	breakpoints: {
+		0: {
+			spaceBetween: 10,
+		},
+		480: {
+			spaceBetween: 15,
+		},
+		767: {
+			spaceBetween: 20,
+		},
+		992: {
+			spaceBetween: 20,
+		}
+	},
+});
 var ourClients = new Swiper(".ourClients", {
 	freeMode: true,
 	loop: true,
@@ -56,13 +84,22 @@ var ourClients = new Swiper(".ourClients", {
 	},
 });
 
-$(".ourWorks .swiper-slide").mouseenter(function() {
-    ourWorks.autoplay.stop();
+$(".ourWorks1 .swiper-slide").mouseenter(function() {
+    ourWorks1.autoplay.stop();
     // console.log('slider stopped');
   });
 
-  $(".ourWorks .swiper-slide").mouseleave(function() {
-    ourWorks.autoplay.start();
+  $(".ourWorks1 .swiper-slide").mouseleave(function() {
+    ourWorks1.autoplay.start();
+    // console.log('slider started again');
+  });
+$(".ourWorks2 .swiper-slide").mouseenter(function() {
+    ourWorks2.autoplay.stop();
+    // console.log('slider stopped');
+  });
+
+  $(".ourWorks2 .swiper-slide").mouseleave(function() {
+    ourWorks2.autoplay.start();
     // console.log('slider started again');
   });
 
