@@ -1,6 +1,7 @@
 
 var ourWorks1 = new Swiper(".ourWorks1", {
 	freeMode: true,
+	direction: "vertical",
 	loop: true,
 	allowTouchMove: true,
 	autoplay: {
@@ -11,7 +12,6 @@ var ourWorks1 = new Swiper(".ourWorks1", {
 	spaceBetween: 10,
 	speed: 5000,
 	pauseOnMouseEnter: true,
-	direction: "vertical",
 	breakpoints: {
 		0: {
 			spaceBetween: 10,
@@ -29,6 +29,7 @@ var ourWorks1 = new Swiper(".ourWorks1", {
 });
 var ourWorks2 = new Swiper(".ourWorks2", {
 	freeMode: true,
+	direction: 'vertical',
 	loop: true,
 	allowTouchMove: true,
 	autoplay: {
@@ -39,7 +40,6 @@ var ourWorks2 = new Swiper(".ourWorks2", {
 	spaceBetween: 10,
 	speed: 5000,
 	pauseOnMouseEnter: true,
-	direction: "vertical",
 	breakpoints: {
 		0: {
 			spaceBetween: 10,
