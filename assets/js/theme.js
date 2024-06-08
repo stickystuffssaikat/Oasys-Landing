@@ -11,6 +11,7 @@ var ourWorks1 = new Swiper(".ourWorks1", {
 	slidesPerView: 2,
 	spaceBetween: 10,
 	speed: 5000,
+	pauseOnHover: true,
 	pauseOnMouseEnter: true,
 	breakpoints: {
 		0: {
@@ -39,6 +40,7 @@ var ourWorks2 = new Swiper(".ourWorks2", {
 	slidesPerView: 2,
 	spaceBetween: 10,
 	speed: 5000,
+	pauseOnHover: true,
 	pauseOnMouseEnter: true,
 	breakpoints: {
 		0: {
