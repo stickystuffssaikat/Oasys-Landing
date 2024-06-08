@@ -5,7 +5,7 @@ var ourWorks1 = new Swiper(".ourWorks1", {
 	allowTouchMove: true,
 	autoplay: {
 		delay: 0,
-		// disableOnInteraction: false,
+		disableOnInteraction: true,
 	},
 	slidesPerView: 2,
 	spaceBetween: 10,

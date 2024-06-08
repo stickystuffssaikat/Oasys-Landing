@@ -84,6 +84,9 @@ section:not(.banner){
 .works .ourWorks1 .mediaContent a {
     color: #fff;
 }
+.works .ourWorks1 .mediaWrapper {
+  transform: skewX(14deg) scale(1.2);
+}
 
 
 ul.listTech {
