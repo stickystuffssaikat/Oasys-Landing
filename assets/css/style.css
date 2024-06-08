@@ -63,15 +63,18 @@ section:not(.banner){
     background: #132a36;
     color: #fff;
 }
-.works .ourWorks1 {
+.works .ourWorks1,
+.works .ourWorks2 {
     width: 100%;
 }
-.works .ourWorks1 .swiper-wrapper {
+.works .ourWorks1 .swiper-wrapper,
+.works .ourWorks2 .swiper-wrapper {
     -webkit-transition-timing-function: linear !important;
     -o-transition-timing-function: linear !important;
     transition-timing-function: linear !important;
 }
-.works .ourWorks1 .mediaContent {
+.works .ourWorks1 .mediaContent,
+.works .ourWorks2 .mediaContent {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -81,10 +84,12 @@ section:not(.banner){
     justify-content: space-between;
     align-items: center;
 }
-.works .ourWorks1 .mediaContent a {
+.works .ourWorks1 .mediaContent a,
+.works .ourWorks2 .mediaContent a {
     color: #fff;
 }
-.works .ourWorks1 .mediaWrapper {
+.works .ourWorks1 .mediaWrapper,
+.works .ourWorks2 .mediaWrapper {
   transform: skewX(14deg) scale(1.2);
 }
 
