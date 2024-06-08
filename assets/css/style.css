@@ -62,11 +62,11 @@ section:not(.banner){
     /* background: #054c74; */
     background: #132a36;
     color: #fff;
-    transform: skewX(-14deg);
 }
 .works .ourWorks1,
 .works .ourWorks2 {
     width: 100%;
+    transform: skewX(-14deg);
 }
 .works .ourWorks1 .swiper-wrapper,
 .works .ourWorks2 .swiper-wrapper {
