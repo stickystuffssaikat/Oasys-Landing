@@ -2,6 +2,10 @@
 html, body {
   scroll-behavior: smooth;
 }
+body.active-nav {
+  max-height: 100vh;
+  overflow: hidden;
+}
 header .header-cont .social-icons li:not(:last-child) {
     margin-right: 1rem;
 }
