@@ -276,7 +276,7 @@ menuToggleClose.addEventListener('click', function(){
 				// scrub: .8,
 				scrub: true,
 				pin: true,
-				markers: true,
+				markers: false,
 			}
 		  })
 	})
