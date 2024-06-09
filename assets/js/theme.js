@@ -242,10 +242,12 @@ tl.reverse();
 menuToggle.addEventListener('click', function(){
 	// menuBar.reversed(!menuBar.reversed());
 	tl.reversed(!tl.reversed());
+	document.body.classList.add('active-nav')
 });
 menuToggleClose.addEventListener('click', function(){
 	// menuBar.reversed(!menuBar.reversed());
 	tl.reversed(!tl.reversed());
+	document.body.classList.remove('active-nav')
 });
 
 
