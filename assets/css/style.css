@@ -45,8 +45,9 @@ section:not(.banner){
   text-transform: uppercase;
 }
 .sec-title span.bg-dark {
+  --bs-dark-rgb: 19, 42, 54;
   margin-left: -3rem;
-  background-color: #132a36;
+  /* background-color: #132a36; */
   color: #ffffff;
   padding-inline: 1rem;
 }
